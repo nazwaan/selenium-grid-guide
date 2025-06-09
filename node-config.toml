@@ -1,0 +1,14 @@
+[network]
+hub = "http://localhost:4444"
+
+[server]
+port = 5555
+
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+  display-name = "Chrome"
+  max-sessions = 6
+  stereotype = "{\"browserName\": \"chrome\"}"
+  binary = "/usr/bin/google-chrome"
